@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #black-section {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+  #tracking-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+  }
